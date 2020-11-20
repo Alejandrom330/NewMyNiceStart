@@ -31,14 +31,14 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/username"
-        android:layout_width="@dimen/ancho"
+        android:layout_width="@dimen/anchoLand"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/imageView2"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="@dimen/izquierda"
-        android:layout_marginLeft="@dimen/izquierda"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginLeft="@dimen/izquierdaLand"
+        android:layout_marginStart="@dimen/izquierdaLand">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -49,15 +49,15 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password"
-        android:layout_width="@dimen/ancho"
+        android:layout_width="@dimen/anchoLand"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/username"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:endIconDrawable="@drawable/lock"
-        android:layout_marginStart="@dimen/izquierda"
-        android:layout_marginLeft="@dimen/izquierda"
-        app:endIconMode="password_toggle">
+        app:endIconMode="password_toggle"
+        android:layout_marginStart="@dimen/izquierdaLand"
+        android:layout_marginLeft="@dimen/izquierdaLand">
         <!-- La propiedad endIconMode marca hace que aparezca el
         icono de mostrar contraseña al final de la misma, un ojo
         con una barra cruzándolo.
@@ -88,14 +88,14 @@
         android:id="@+id/registro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/izquierda"
-        android:layout_marginLeft="@dimen/izquierda"
-        android:layout_marginTop="32dp"
-        android:onClick="regitro"
         android:text="@string/registro"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="@dimen/izquierdaLand"
+        android:layout_marginLeft="@dimen/izquierdaLand"
+        android:onClick="regitro"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
