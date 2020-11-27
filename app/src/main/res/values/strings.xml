@@ -7,4 +7,6 @@
     <string name="iniciar">Iniciar Sesión</string>
     <string name="registrar">Regístrate</string>
     <string name="inicio_sesion">¿Ya tienes una cuenta? \nInicia sesión aquí</string>
+    <string name="ok">OK</string>
+    <string name="pantalla_carga">My Nice Start</string>
 </resources>

@@ -15,10 +15,14 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void regitro(View view) {
-
         Intent i = new Intent(this, SigninActivity.class);
 
         startActivity(i);
+    }
 
+    public void cambiarventana1(View view) {
+        Intent i = new Intent(this, MainActivity.class);
+
+        startActivity(i);
     }
 }
