@@ -23,8 +23,6 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 public class SplashActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +32,7 @@ public class SplashActivity extends AppCompatActivity {
         Animation myanim1 = AnimationUtils.loadAnimation(this, R.anim.fadein_animation);
         myImage.startAnimation(myanim1);
 
-        /*
+
         ImageView bosque = findViewById(R.id.imageView1);
 
         Glide.with(this)
@@ -43,7 +41,7 @@ public class SplashActivity extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade(500))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.colorPrimary)))
                 .into(bosque);
-        */
+
 
         openApp(true);
     }
