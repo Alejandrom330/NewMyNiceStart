@@ -13,6 +13,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
+/**
+ * Ventana de bienvenida con una animacion y un scrim
+ *
+ * @author Alejandro
+ * @see SplashActivity
+ *
+ */
+
 public class SplashActivity extends AppCompatActivity {
 
 
@@ -27,7 +35,6 @@ public class SplashActivity extends AppCompatActivity {
         myImage.startAnimation(myanim1);
 
         /*
-
         ImageView bosque = findViewById(R.id.imageView1);
 
         Glide.with(this)
@@ -35,7 +42,8 @@ public class SplashActivity extends AppCompatActivity {
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(500))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.colorPrimary)))
-                .into(bosque); */
+                .into(bosque);
+        */
 
         openApp(true);
     }

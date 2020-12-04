@@ -27,7 +27,6 @@
         android:onClick="cambiarventana2"
         app:layout_constraintStart_toStartOf="parent"
         style="@style/ButtonOutlined">
-
     </com.google.android.material.button.MaterialButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

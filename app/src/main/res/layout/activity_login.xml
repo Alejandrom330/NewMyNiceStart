@@ -37,8 +37,10 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="@dimen/izquierda"
+        android:layout_marginEnd="@dimen/derecha"
         android:layout_marginLeft="@dimen/izquierda"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="@dimen/derecha">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -57,7 +59,10 @@
         app:endIconDrawable="@drawable/lock"
         android:layout_marginStart="@dimen/izquierda"
         android:layout_marginLeft="@dimen/izquierda"
-        app:endIconMode="password_toggle">
+        app:endIconMode="password_toggle"
+        android:layout_marginEnd="@dimen/derecha"
+        android:layout_marginRight="@dimen/derecha">
+
         <!-- La propiedad endIconMode marca hace que aparezca el
         icono de mostrar contraseña al final de la misma, un ojo
         con una barra cruzándolo.
@@ -90,6 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/izquierda"
         android:layout_marginLeft="@dimen/izquierda"
+        android:layout_marginEnd="@dimen/derecha"
         android:layout_marginTop="32dp"
         android:onClick="regitro"
         android:text="@string/registro"

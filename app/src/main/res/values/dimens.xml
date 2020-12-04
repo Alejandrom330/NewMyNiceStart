@@ -2,8 +2,9 @@
 <resources>
     <dimen name="izquierda">200dp</dimen>
     <dimen name="ancho">210dp</dimen>
-    <dimen name="anchoLand">250</dimen>
+    <dimen name="anchoLand">250dp</dimen>
     <dimen name="izquierdaLand">100</dimen>
     <dimen name="tamañoCarga">50sp</dimen>
     <dimen name="marginTop">24dp</dimen>
+    <dimen name="derecha">25dp</dimen>
 </resources>

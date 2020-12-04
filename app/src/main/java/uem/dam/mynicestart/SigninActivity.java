@@ -6,6 +6,14 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * Ventana de bienvenida con una animacion y un scrim
+ *
+ *  @author Alejandro
+ *  @see SplashActivity
+ *
+ */
+
 public class SigninActivity extends AppCompatActivity {
 
     @Override
@@ -19,4 +27,5 @@ public class SigninActivity extends AppCompatActivity {
 
         startActivity(i);
     }
+
 }

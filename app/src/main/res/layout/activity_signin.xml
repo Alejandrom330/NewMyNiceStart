@@ -86,7 +86,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         style="@style/ButtonStraight"
         app:layout_constraintStart_toStartOf="parent">
-
     </com.google.android.material.button.MaterialButton>
 
     <TextView
