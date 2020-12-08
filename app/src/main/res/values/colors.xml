@@ -12,5 +12,6 @@
     <color name="color_boton">#13FDF5</color>
     <color name="fondo_2">#F44336</color>
     <color name="colorPrimary">#1AAF3A</color>
+    <color name="colorLetra1">#CC1432FF</color>
 
 </resources>

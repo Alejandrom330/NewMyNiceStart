@@ -9,4 +9,7 @@
     <string name="inicio_sesion">¿Ya tienes una cuenta? \nInicia sesión aquí</string>
     <string name="ok">OK</string>
     <string name="pantalla_carga">My Nice Start</string>
+    <string name="toast1">Debes introducir el nombre y la contraseña para continuar</string>
+    <string name="tvNombre">Nombre usuario: Usuario</string>
+    <string name="tvContraseña">Contraseña: Contraseña</string>
 </resources>

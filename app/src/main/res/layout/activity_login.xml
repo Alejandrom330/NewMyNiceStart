@@ -43,6 +43,7 @@
         android:layout_marginRight="@dimen/derecha">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNombreUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
@@ -70,6 +71,7 @@
          introduciéndole el icono que se quiera-->
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etContraseñaUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
