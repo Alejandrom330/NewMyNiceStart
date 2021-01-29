@@ -15,6 +15,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:scaleType="fitStart"/>
+        <!-- La propiedad fitstart ajusta al inicio de la imagen,
+        lo detecta automáticamente.
+         La propiedad fitXY estira la imagen, funciona mejor fitstart-->
 
     <ImageView
         android:id="@+id/imageView2"
@@ -25,9 +28,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tienda" />
-    <!-- La propiedad fitstart ajusta al inicio de la imagen,
-    lo detecta automáticamente.
-     La propiedad fitXY estira la imagen, funciona mejor fitstart-->
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/username"
