@@ -16,4 +16,7 @@
     <string name="tv_expandible1">Susan Andrews</string>
     <string name="tv_expandible2">Work as a Freelancer</string>
     <string name="tv_alertD">Cuidao Con la Casca</string>
+    <string name="app_bar_menu_bookmark">Bookmark</string>
+    <string name="app_bar_menu_share">Share</string>
+    <string name="app_bar_menu_search">Shearch</string>
 </resources>

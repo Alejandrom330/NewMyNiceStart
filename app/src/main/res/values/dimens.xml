@@ -7,4 +7,6 @@
     <dimen name="tamañoCarga">50sp</dimen>
     <dimen name="marginTop">24dp</dimen>
     <dimen name="derecha">25dp</dimen>
+    <dimen name="keyline_4">16dp</dimen>
+    <dimen name="keyline_5">24dp</dimen>
 </resources>
