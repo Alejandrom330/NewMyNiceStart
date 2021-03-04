@@ -54,8 +54,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
 
     public void cambiarventana2(View view) {
