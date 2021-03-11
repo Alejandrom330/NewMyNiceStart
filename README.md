@@ -21,10 +21,12 @@
 * Main2
   * Ventana que contiene un bottom app bar
 
+
 Splash | Login | Signin
 -------|-------|-------
 ![](img/splash.png) | ![](img/login.png) | ![](img/signin.png)
 
-Main1 | Main2
--------|-------
-![](img/main1.png) | ![](img/main2.png)
+
+Menu Contextual | Menu AppBar | Menu Bottom AppBar | Alert Dialog
+-------|-------|-------|-------
+![](img/menuContextual.png) | ![](img/menuAppBar.png) | ![](img/BottomAppBar.png)| ![](img/Dialog.png)
