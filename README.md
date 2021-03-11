@@ -14,9 +14,12 @@
 * Main1
   * Ventana que tiene la foto de perfil con el nombre de usuario y la
    contraseña de la cuenta
+  * Contiene un SwipeRefresh, un expandible card view,
+  * al mantener pulsada la foto de perfil se muestran 2 opciones y al 
+  * hacer click en el icono de android del menu se muestra un alert dialog.
 
 * Main2
-  * Ventana que te muestra un texto con MAIN2
+  * Ventana que contiene un bottom app bar
 
 Splash | Login | Signin
 -------|-------|-------
