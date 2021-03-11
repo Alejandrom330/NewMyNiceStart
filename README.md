@@ -21,6 +21,8 @@
 * Main2
   * Ventana que contiene un bottom app bar
 
+* El archibo .aab esta en la carpeta app release
+
 
 Splash | Login | Signin
 -------|-------|-------
