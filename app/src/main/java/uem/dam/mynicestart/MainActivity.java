@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
         foto = findViewById(R.id.fotoPerfil);
 
-
         Glide.with(this)
                 .load(R.drawable.cielo)
                 .centerCrop().circleCrop()
@@ -66,8 +65,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onCreateContextMenu(ContextMenu menu, View v,
-                                    ContextMenu.ContextMenuInfo menuInfo) {
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_context, menu);
@@ -128,7 +126,6 @@ public class MainActivity extends AppCompatActivity {
             //          Toast toast0 = Toast.makeText(MainContextActivity.this, "going swipeREFRESH", Toast.LENGTH_LONG);
             //          toast0.show();
 
-
             //   opción SNACKBAR
 
 //           SUSTITUIR POR CONSTRAINT EN SU CASO
@@ -147,7 +144,6 @@ public class MainActivity extends AppCompatActivity {
 
             snackbar.show();
             swipeLayout.setRefreshing(false);
-
         }
     };
 

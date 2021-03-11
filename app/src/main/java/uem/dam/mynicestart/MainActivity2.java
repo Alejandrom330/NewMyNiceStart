@@ -35,7 +35,6 @@ public class MainActivity2 extends AppCompatActivity {
 //                sheetBehavior = BottomSheetBehavior.from(sheet);
             }
 
-
         });
 
         //click event en el Bottom bar menu item
@@ -57,5 +56,4 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
     }
-
 }
